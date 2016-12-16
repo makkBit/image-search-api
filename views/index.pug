@@ -1,0 +1,29 @@
+html
+	head
+		title image search api
+		style
+			include css/style.css
+			include css/bootstrap.min.css
+
+	body(class='text-center')
+		div(class='page-header')
+			h1 image search abstraction layer
+		h3 User Stories:
+		ol(class='well')
+			li I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
+			li I can paginate through the responses by adding a ?offset=2 parameter to the URL.
+			li I can get a list of the most recently submitted search strings. 
+		h3 Example usage:
+		p(class='well') 
+			|https://shorten-this-url.herokuapp.com/new/https://www.google.com
+			<br>
+			|https://shorten-this-url.herokuapp.com/new/https://github.com/makkBit/shorten-this-url/blob/master/app/api/url-shortener.js
+
+		p(class='well') 
+			|{ "original_url":"https://shorten-this-url.herokuapp.com/new/https://github.com/makkBit/shorten-this-url/blob/master/app/api/url-shortener.js", "short_url":"https://shorten-this-url.herokuapp.com/4838511" }
+
+		a(class='repo' href="https://github.com/makkBit/image-search-api", target="_blank") github repo
+		br
+		br
+		p made by
+			a(href="https://twitter.com/makk_bit", target="_blank")  mahak

@@ -1,0 +1,30 @@
+{
+  "name": "image-search-api",
+  "version": "1.0.0",
+  "description": "image search abstraction layer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makkBit/image-search-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "image"
+  ],
+  "author": "makkBit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makkBit/image-search-api/issues"
+  },
+  "homepage": "https://github.com/makkBit/image-search-api#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.16",
+    "pug": "^2.0.0-beta6"
+  }
+}
