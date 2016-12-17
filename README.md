@@ -24,12 +24,12 @@ For <a href="https://www.freecodecamp.com/challenges/image-search-abstraction-la
 
 <strong>Example Usage</strong>
 <br>
-<p>https://shorten-this-url.herokuapp.com/new/https://www.google.com <br>
-https://shorten-this-url.herokuapp.com/new/https://github.com/makkBit/shorten-this-url/blob/master/app/api/url-shortener.js
+<p>https://image-search-api-makkbit.herokuapp.com/api/imagesearch/lolcats%20funny?offset=10 <br>
+https://image-search-api-makkbit.herokuapp.com/api/latest/imagesearch/
 </p>
 <br>
 <p>json response:</p>
-<p>{ "original_url":"https://shorten-this-url.herokuapp.com/new/https://github.com/makkBit/shorten-this-url/blob/master/app/api/url-shortener.js", "short_url":"https://shorten-this-url.herokuapp.com/4838511" }</p>
+<p>coming soon</p>
 
 
 
