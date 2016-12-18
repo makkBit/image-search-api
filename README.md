@@ -1,4 +1,4 @@
-# shorten-this-url
+# IMAGE SEARCH ABSTRACTION LAYER API
 
 <strong>live site:</strong>
 https://image-search-api-makkbit.herokuapp.com/
