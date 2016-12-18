@@ -19,6 +19,7 @@ ol,p{
 p{
 	font-weight: bold;
 	color:black;
+	word-wrap: break-word;
 }
 a{
 	text-decoration: none !important;
