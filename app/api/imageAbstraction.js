@@ -16,8 +16,7 @@ module.exports = function(app, db){
 		});
 
 	});
-
-
+	
 
 	//image search 
 	app.get('/imagesearch/:img', (req,res) => {
@@ -58,10 +57,5 @@ module.exports = function(app, db){
 			"page_url": image.hostPageUrl
 		};
 	};
-
-
-	
-
-
 
 };
